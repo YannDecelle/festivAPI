@@ -2,7 +2,7 @@
   "name": "festivapi",
   "version": "1.0.0",
   "description": "An api for festivals in France",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "jest",
     "lint": "eslint --fix --ext .js,.jsx ."
