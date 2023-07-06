@@ -7,7 +7,7 @@ FestivAPI is an npm library that provides an API for retrieving festival data in
 To install the FestivAPI library, use npm:
 
 ```bash
-npm install festivapi
+npm i festivapi
 ```
 
 ## Usage
@@ -76,7 +76,7 @@ import GetFestivData from 'festivapi';
 </template>
 
 <script>
-import GetFestivData from '../../src/index.js';
+import GetFestivData from 'festivapi';
 
 export default {
   name: 'App',
@@ -91,8 +91,13 @@ export default {
   }
 };
 </script>
+
 ```
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Disclaimer
+
+This is a school project for the IIM DIGITAL SCHOOL
