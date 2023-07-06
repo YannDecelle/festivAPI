@@ -1,0 +1,8 @@
+index.html
+node_modules
+package-lock.json
+.npmignore
+index.html
+npm-debug.log
+yarn.lock
+app_libtest/
