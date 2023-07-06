@@ -1,13 +1,13 @@
-# festivapi_fr
+# FestivAPI
 
-festivapi_fr is an npm library that provides an API for retrieving festival data in France. It fetches festival information from the French Ministry of Culture's dataset and returns the data in a structured format.
+FestivAPI is an npm library that provides an API for retrieving festival data in France. It fetches festival information from the French Ministry of Culture's dataset and returns the data in a structured format.
 
 ## Installation
 
-To install the festivapi_fr library, use npm:
+To install the FestivAPI library, use npm:
 
 ```bash
-npm install festivapi_fr
+npm install festivapi
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install festivapi_fr
 The library exports a single function called `GetFestivData`. It fetches the festival data and returns a promise that resolves to an array of festival objects.
 
 ```javascript
-const GetFestivData = require('festivapi_fr');
+const GetFestivData = require('festivapi');
 
 // Example usage
 GetFestivData()
@@ -31,14 +31,14 @@ GetFestivData()
 
 ## Example Usage
 
-Here's an example of how you can use the festivapi_fr library in an application:
+Here's an example of how you can use the FestivAPI library in an application:
 
-1. Install the festivapi_fr library as mentioned in the installation section.
+1. Install the FestivAPI library as mentioned in the installation section.
 
 2. In your React or Vue component, import the `GetFestivData` function:
 
 ```javascript
-import GetFestivData from 'festivapi_fr';
+import GetFestivData from 'festivapi';
 ```
 
 3. Use the function in your component's code to fetch and process the festival data:

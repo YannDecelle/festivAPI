@@ -1,7 +1,7 @@
 {
-  "name": "festivapi_fr",
+  "name": "festivapi",
   "version": "1.0.0",
-  "description": "An api for festivals",
+  "description": "An api for festivals in France",
   "main": "index.js",
   "scripts": {
     "test": "jest",
